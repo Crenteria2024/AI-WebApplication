@@ -61,14 +61,14 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>precompile</goal>
+                            <goal>generate</goal>
                         </goals>
                     </execution>
                 </executions>
                 <configuration>
-                    <templateRoot>src/main/jte</templateRoot>
-                    <targetDirectory>target/generated-sources/jte</targetDirectory>
-                    <contentType>html</contentType>
+                    <sourceDirectory>${project.basedir}/src/main/jte</sourceDirectory>
+                    <targetDirectory>${project.build.directory}/classes/jte-classes</targetDirectory>
+                    <contentType>Html</contentType>
                 </configuration>
             </plugin>
         </plugins>
