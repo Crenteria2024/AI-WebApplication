@@ -68,6 +68,7 @@
                 <configuration>
                     <templateRoot>src/main/jte</templateRoot>
                     <targetDirectory>target/generated-sources/jte</targetDirectory>
+                    <contentType>html</contentType>
                 </configuration>
             </plugin>
         </plugins>
